@@ -1,7 +1,4 @@
 ﻿program main;
-  var 
-    s: string;
-    i: integer;
     
 function FizzBuzz(number: integer): string;
 var
@@ -17,6 +14,6 @@ begin
 end;  
 
 begin
-  for i:= 1 to 100 do 
+  for var i:= 1 to 100 do 
     write(FizzBuzz(i)+' ');
 end.
