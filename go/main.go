@@ -5,7 +5,6 @@ import (
 	"strconv"
 )
 
-// Релаизация
 func main() {
 	for i := 1; i <= 100; i++ {
 		fmt.Print(FizzBuzz(i) + " ")
